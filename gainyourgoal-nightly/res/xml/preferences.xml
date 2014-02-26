@@ -1,0 +1,32 @@
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <PreferenceCategory
+            android:title="General">
+        <SwitchPreference 
+                android:key="switch_preference"
+                android:title="online mode?"
+                android:summary="Use normal (offline) mode or switch to online mode?"
+            />
+        
+    </PreferenceCategory>
+    <PreferenceCategory
+            android:title="Dashboard">
+
+        <ListPreference
+                android:key="list_preference"
+                android:entries="@array/lists"
+                android:entryValues="@array/listvalues"
+                android:title="Select your main todo list" />
+    </PreferenceCategory>
+    <PreferenceCategory
+            android:title="Import/Export">
+        <Preference 
+                android:key="import"
+                android:title="Import settings"/>
+        <Preference 
+                android:key="export"
+                android:title="Export settings"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,27 @@
+<sql>
+<statement>
+CREATE TABLE IF NOT EXISTS tasks (
+	_id INTEGER PRIMARY KEY AUTOINCREMENT, 
+	name VARCHAR(50),  
+	description VARCHAR(50), 
+	repeat BOOLEAN, 
+	associatedTask INTEGER, 
+	priority INTEGER, 
+	deadline DATETIME, 
+	email VARCHAR(30))
+</statement>
+<statement>INSERT INTO tasks VALUES(1,'Learning','Study web science courses',NULL, NULL,5709,1/1/2015,'ryan@dundermifflin.com')</statement>
+<statement>INSERT INTO tasks VALUES(2,'Improve my android skills','Read many tutorials',1,1,5719,1/1/2015,'michael@dundermifflin.com')</statement>
+<statement>INSERT INTO tasks VALUES(3,'Enjoy university','a',1,2,4444,1/1/2015,'dwight@dundermifflin.com')</statement>
+<statement>INSERT INTO tasks VALUES(4,'a','b',NULL,2,121,1/1/2015,'jim@dundermifflin.com')</statement>
+<statement>INSERT INTO tasks VALUES(5,'b','c',NULL,2,999,1/1/2015,'pam@dundermifflin.com')</statement>
+<statement>INSERT INTO tasks VALUES(6,'c','d',NULL,2,570,1/1/2015,'angela@dundermifflin.com')</statement>
+<statement>INSERT INTO tasks VALUES(7,'d','e',NULL,6,7096,1/1/2015,'kmalone@dundermifflin.com')</statement>
+<statement>INSERT INTO tasks VALUES(8,'e','f',NULL,6,99922,1/1/2015,'oscar@dundermifflin.com')</statement>
+<statement>INSERT INTO tasks VALUES(9,'f','g',NULL,2,570666,1/1/2015,'creed@dundermifflin.com')</statement>
+<statement>INSERT INTO tasks VALUES(10,'g','h',NULL,2,5000,1/1/2015,'andy@dundermifflin.com')</statement>
+<statement>INSERT INTO tasks VALUES(11,'h','i',NULL,10,44,1/1/2015,'phyllis@dundermifflin.com')</statement>
+<statement>INSERT INTO tasks VALUES(12,'i','j',NULL,10,12,1/1/2015,'shudson@dundermifflin.com')</statement>
+<statement>INSERT INTO tasks VALUES(13,'j','k',NULL,2,6543,1/1/2015,'meredith@dundermifflin.com')</statement>
+<statement>INSERT INTO tasks VALUES(14,'k','l',NULL,2,212,1/1/2015,'kelly@dundermifflin.com')</statement>
+</sql>

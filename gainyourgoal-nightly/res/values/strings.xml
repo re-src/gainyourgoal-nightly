@@ -1,0 +1,81 @@
+<!--
+  Copyright 2013 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<resources>
+    <string name="app_name">gainyourgoal</string>
+    <string-array name="default_nav_array">
+        <item>Lists</item>
+        <item>Badges</item>
+        <item>Statistics</item>
+        <item >Configuration</item>
+    </string-array>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_search">Search</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+    <string-array name="mainlist_nav_array">
+        <item >show Archive</item>
+    </string-array>
+    <string-array name="tasklist_nav_array">
+        <item >add Task</item>
+        <item >change Color</item>
+        <item >show Finished</item>
+    </string-array>
+    <string-array name="task_nav_array">
+        <item >delete Task</item>
+        <item >copy Task</item>
+        <item >check Task</item>
+    </string-array>
+    <string name="action_configuration">Configuration</string>
+    <string name="action_addTask">add Task</string>
+    <string name="action_addList">add List</string>
+    <string name="action_add">Add</string>
+    <string name="hint_add_task_name">Task Name</string>
+    <string name="hint_add_description">Description</string>
+    <string name="text_add_task_redo">Repeat Task</string>
+    <string-array name="priorities">
+        <item >0</item>
+        <item >2</item>
+        <item >5</item>
+        <item >10</item>
+        <item >20</item>
+        <item >40</item>
+        <item >80</item>
+    </string-array>
+    <string name="hint_add_list_name">List Name</string>
+    <string-array name="categories">
+        <item>offline</item><item >online</item>
+        
+    </string-array>
+    <string name="hint_add_points">Points</string>
+    <string name="update_Button">Update</string>
+    <string name="set_configuration">set_configuration</string>
+    <string-array name="lists">
+        <item >1</item>
+        <item >2</item>
+    </string-array>
+    <string-array name="listvalues">
+        <item >1. entry</item>
+        <item >2nd list</item>
+    </string-array>
+    <string name="context_edit">Edit</string>
+    <string name="context_set_color">Set Color</string>
+    <string name="context_delete">Delete</string>
+    <string name="context_archive">Archive</string>
+    <string name="context_copy">Copy</string>
+    <string name="context_check">Tick Off</string>
+    <string name="text_priority">Points:</string>
+</resources>

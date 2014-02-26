@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/overallStatsTextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Overall: "
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/pointsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/weeklyStatsTextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This week: "
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <TextView
+        android:id="@+id/monthlyStatsTextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This month: " 
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+</LinearLayout>
